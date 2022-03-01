@@ -1,0 +1,37 @@
+body {
+  background-color: #3a3a3a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body::-webkit-scrollbar {
+  width: .25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #252626;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #3e3e54;
+}
+
+/*
+.OOOO {
+  display: inline-block;
+  width: 90vw;
+  height: 90vh;
+  margin: auto;
+}
+*/
+
+.xina {
+  display: inline-block;
+  width: 25vw;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto;
+  background-image: url(https://cdn.betterttv.net/emote/61719cfb78e76c144f05bf67/3x);
+}
